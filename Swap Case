@@ -1,0 +1,7 @@
+def swap_case(s):
+    
+    # The fundction swapcase is  an integrated funcftion from python
+    # it turn the lower case letter to uppercase aand vice versa
+    # the syntax should be text = test.swap_case
+    s =  s.swapcase()
+    return s
