@@ -1,0 +1,9 @@
+def split_and_join(line):
+    
+    #.split(" ") split the string in a list with space.
+    #"-".join(line) turn the list to a string and join them with a dash
+    line = line.split(" ")
+    line = "-".join(line)
+    
+    return line
+    # write your code here
