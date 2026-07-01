@@ -1,0 +1,20 @@
+def count_substring(string, sub_string):
+    #initialise the position variable
+    position = 0
+    
+    #initialise the count variable
+    n = 0
+    
+    #find the first position of the substring
+    position = string.find(sub_string)
+    
+    #This while loop start from the position +1 after the first substring was found
+    # for understanding purporse the counting value need to start incrementing in this
+    #lopp or the code will not work. 
+    
+    
+    while position != -1:
+    # Do something with position
+        n = n + 1
+        position = string.find(sub_string, position + 1)
+    return n
