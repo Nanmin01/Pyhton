@@ -1,0 +1,5 @@
+
+def print_full_name(first, last):
+    #Using f string to nprint the first and last name
+    print(f"Hello {first} {last}! You just delved into python.")
+    # Write your code here
